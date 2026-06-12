@@ -1,0 +1,10 @@
+rule_name,severity,issue_type,issue_count
+Timestamp outside last 30 days,MEDIUM,Timestamp issue,988
+Duplicate event_id,HIGH,Duplicate record,88
+Missing content_id,HIGH,Missing value,27
+Negative duration_ms,HIGH,Invalid value,20
+error_code present for non-error event,MEDIUM,Business rule issue,15
+duration_ms should be null for start events,MEDIUM,Business rule issue,9
+Invalid error_code for error event,HIGH,Invalid value,8
+Invalid firmware_version format,MEDIUM,Format issue,6
+Missing device_id,HIGH,Missing value,5
